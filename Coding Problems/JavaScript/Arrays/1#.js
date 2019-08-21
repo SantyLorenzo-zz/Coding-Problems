@@ -8,14 +8,13 @@ let arr = [1, 2, 3, 4, 5];
 let k = 0;
 
 const firulais = (arr, k) => {
-  // creo un nuevo set
   let mySet = new Set();
-  // meto todos los elementos del array en el set
+  // put all the array elements in the set
   arr.forEach(item => mySet.add(item));
 
   for (let i = 0; i < arr.length; i++) {
-    // pregunto si en el set hay un valor que sea igual a
-    // la resta de k - arr[i], la posicion actual del array
+    // ask if in the set there is a value that is equal
+    // to the subtraction of k - arr [i], the current position of the array
     if (mySet.has(k - arr[i])) {
       return true;
     }
