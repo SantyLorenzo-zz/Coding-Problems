@@ -1,3 +1,3 @@
 # Javascript Coding-Problems
 
-#### Fell free to push your solutions or improvements.
+#### Feel free to push your solutions or improvements.
